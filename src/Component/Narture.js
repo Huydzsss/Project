@@ -24,9 +24,9 @@ export default function Nature() {
         <p>
           The park World Heritage-listed landscapes change dramatically from one end of the park to the other, encompassing mangrove-lined coastlines, sweeping stone country and endless floodplains and wetlands.
           Its savanna woodlands and lowlands, which make up about 80% of the park, house a huge variety of plants and animals.
-          Kakadu is home to 2,000 plant species, around one-third of all Australian bird species and about one-fifth of all Australian mammals.
+          Zootopia is home to 2,000 plant species, around one-third of all Australian bird species and about one-fifth of all Australian mammals.
           Some of these animals are threatened or endangered and many aren’t found anywhere else in the world. And there are other species still waiting to be discovered.
-          Come to Kakadu to experience nature at its most remarkable.
+          Come to Zootopia to experience nature at its most remarkable.
         </p>
       </div>
       <div className="d-flex justify-content-center container">
