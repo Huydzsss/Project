@@ -11,7 +11,7 @@ export default function Menu() {
   const [ticketInfo, setTicketInfo] = useState({
     adult: 1,
     child: 0,
-    senior: 0,
+    old: 0,
   });
   const [date, setDate] = useState(new Date());
   const [showSearch, setShowSearch] = useState(false);
@@ -114,7 +114,7 @@ export default function Menu() {
                   <input type="number" id="child" className="form-control" value={ticketInfo.child} onChange={(e) => handleTicketChange('child', e.target.value)} />
                 </div>
                 <div className="col">
-                  <label htmlFor="senior">Seniors:</label>
+                  <label htmlFor="senior">Old:</label>
                   <input type="number" id="senior" className="form-control" value={ticketInfo.senior} onChange={(e) => handleTicketChange('senior', e.target.value)} />
                 </div>
               </div>
