@@ -37,7 +37,7 @@ export default function Region1(){
 Here are some highlights about {region.name}:</p>
             <strong>1.Natural beauty:</strong>
             <br/>
-            <p>{region.name} is famous for more than 1,600 limestone islands and islets, creating a majestic natural picture. Blue sea water and sharp mountain peaks create a mysterious and lyrical space.</p>
+            <p>{region.name}is famous for more than 1,600 limestone islands and islets, creating a majestic natural picture. Blue sea water and sharp mountain peaks create a mysterious and lyrical space.</p>
             <strong>2.Caves and animal ecosystems:</strong>
             <p>{region.name} has many magical caves such as Dau Go Cave, Thien Cung Cave, Sung Sot Cave, giving visitors interesting and attractive experiences. In addition, this sea is also home to many rich species of marine animals and plants.</p>
             <strong>3.Ideal location for seafood tourism:</strong>
