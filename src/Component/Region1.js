@@ -25,11 +25,11 @@ export default function Region1(){
   }, [id]);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div>Loading....</div>;
   }
 
     return (
-        <div className=" justify-content-center ">
+        <div className="justify-content-center ">
             <Menu/>
             <h1 className="d-flex justify-content-center container">{region.name}</h1>
             <img src={`${process.env.PUBLIC_URL}/${region.img}`} className="img-fluid w-100"></img>
