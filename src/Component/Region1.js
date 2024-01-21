@@ -25,7 +25,7 @@ export default function Region1(){
   }, [id]);
 
   if (loading) {
-    return <div>Loading....</div>;
+    return <div>Loading...</div>;
   }
 
     return (
