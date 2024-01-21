@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Vinh ha long",
+        "img":"./img/vhl.jpg",
+        "Rate":"Very positive"
+    },
+    {
+        "id":2,
+        "name":"Da nang",
+        "img":"./img/danang.jpg",
+        "Rate":"Very positive"
+    },
+    {
+        "id":3,
+        "name":"Can tho",
+        "img":"./img/cantho.jpg",
+        "Rate":"Very positive"
+    },
+    {
+        "id":4,
+        "name":"Quang ninh",
+        "img":"./img/quangning.png",
+        "Rate":"Very positive"
+    },
+    {
+        "id":5,
+        "name":"Phu quoc",
+        "img":"./img/phuquoc.jpg",
+        "Rate":"Mixxed"
+    },
+    {
+        "id":6,
+        "name":"Ha nam",
+        "img":"./img/hanam.jpg",
+        "Rate":"Very positive"
+    }
+]

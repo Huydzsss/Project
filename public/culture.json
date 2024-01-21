@@ -1,0 +1,22 @@
+
+[
+    {
+        "id":1,
+        "name":"Food",
+        "img":"./img/food.png",
+        "Desc":"Vietnamese food culture is diverse and rich, showcasing creativity and sophistication. Notable features include a wide variety of regional dishes, a preference for natural ingredients, a balanced taste profile, traditional cooking methods, and the significance of communal meals. Culinary traditions like Tet's banh chung and iconic dishes like pho contribute to the cultural identity. Social customs related to food and influences from global cuisines further enhance the unique Vietnamese culinary landscape."
+        
+    },
+    {
+        "id":2,
+        "name":"Language",
+        "img":"./img/language.png",
+        "Desc":"Vietnamese culture and language reflect the diversity and depth of the culture. The Vietnamese language is valued for its values such as respect, politeness, and family affection. The National Language writing system and many different ethnic languages create a unique and multi-dimensional expression style."
+    },
+    {
+        "id":3,
+        "name":"Cultural event",
+        "img":"./img/lehoi.jpg",
+        "Desc":"Vietnamese festival culture is a colorful picture, expressing the richness and excitement of the country. From traditional festivals to modern events, Vietnam combines the spirit of tradition and innovation. The festival is an opportunity for the community to gather and express joy, gratitude and love for the homeland."
+    }
+]
