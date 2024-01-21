@@ -114,8 +114,8 @@ export default function Menu() {
                   <input type="number" id="child" className="form-control" value={ticketInfo.child} onChange={(e) => handleTicketChange('child', e.target.value)} />
                 </div>
                 <div className="col">
-                  <label htmlFor="senior">Old:</label>
-                  <input type="number" id="senior" className="form-control" value={ticketInfo.senior} onChange={(e) => handleTicketChange('senior', e.target.value)} />
+                  <label htmlFor="old">Old:</label>
+                  <input type="number" id="old" className="form-control" value={ticketInfo.old} onChange={(e) => handleTicketChange('senior', e.target.value)} />
                 </div>
               </div>
             </div>
