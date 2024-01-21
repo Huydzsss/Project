@@ -60,7 +60,7 @@ allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; pictur
                 </li>
           </ul>
         </div>
-        <p>&copy; 2024 National Parks Zootopia. Web by Le Ngoc Huy,Nguyen Duy Hai,Nguyen Xuan Chinh,Phan Lac Viet</p>
+        <p>&copy; 2024 National Parks Zootopia. Web by Le Ngoc Huy,Nguyen Duy Hai,Nguyen Xuan Chinh,Phan Lac Viet.</p>
       </footer>
     </div>
   );
