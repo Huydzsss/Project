@@ -32,6 +32,7 @@ export default function Plants() {
               </Link>
               <div className="card-body">
                 <h5 className="card-title">{plant.name}</h5>
+                <h5 className="card-from">from: {plant.from}</h5>
               </div>
             </div>
           </div>

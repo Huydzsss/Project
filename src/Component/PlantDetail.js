@@ -37,6 +37,22 @@ export default function PlantDetail() {
       <h1>{plant.name}</h1>
       <img src={`${process.env.PUBLIC_URL}/${plant.img}`} alt={plant.name} />
       <h4 className='font-monospace'>- Description: {plant.Desc}</h4>
+      <h5 className="card-from">from: {plant.from}</h5>
+      <section className="my-0 bg-warning mt-1">
+          <div className="d-flex justify-content-center container gallery bg-warning">
+            <strong style={{ fontSize: "50px" }}>Gallery</strong>
+          </div>
+          <div className="d-flex justify-content-center flex-row container-fluid bg-warning">
+            <div className="img-wrapper ">
+              <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${plant.gallery1}`} style={{ height: "500px", width: "500px" }} />
+            </div>
+            <div className="img-wrapper ">
+              <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${plant.gallery2}`} style={{ height: "500px", width: "500px" }} />
+            </div>
+          </div>
+        </section>
+
+      
       <Footer/>
     </div>
   );

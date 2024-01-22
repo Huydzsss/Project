@@ -3,54 +3,83 @@
         "id":1,
         "name": "Sunflower",
         "img": "./img/sunfl.png",
-        "Desc":"The common sunflower (Helianthus annuus) is a species of large annual forb of the genus Helianthus. It is commonly grown as a crop for its edible oily seeds. Apart from cooking oil production, it is also used as livestock forage (as a meal or a silage plant), as bird food, in some industrial applications, and as an ornamental in domestic gardens. Wild H. annuus is a widely branched annual plant with many flower heads. The domestic sunflower, however, often possesses only a single large inflorescence (flower head) atop an unbranched stem."
+        "Desc":"The common sunflower (Helianthus annuus) is a species of large annual forb of the genus Helianthus. It is commonly grown as a crop for its edible oily seeds. Apart from cooking oil production, it is also used as livestock forage (as a meal or a silage plant), as bird food, in some industrial applications, and as an ornamental in domestic gardens. Wild H. annuus is a widely branched annual plant with many flower heads. The domestic sunflower, however, often possesses only a single large inflorescence (flower head) atop an unbranched stem.",
+        "from":"Origin from North America",
+        "gallery1":"./img/sun1.jpg",
+        "gallery2":"./img/sun2.jpg"
     },
     {
         "id":2,
         "name":"Rose",
         "img":"./img/rose.png",
-        "Desc":"The flower of the rose plant can be different sizes. It may be as small as 1/2 inch across to a diameter of almost 7 inches.[2] Also, roses can be used for good scent. The scent of the rose comes from tiny perfume glands on the petals,[4][5] which can be seen through a powerful microscope. Sometimes rose petals are dried and packed so that you can use them for decoration or for scent."
+        "Desc":"The flower of the rose plant can be different sizes. It may be as small as 1/2 inch across to a diameter of almost 7 inches.[2] Also, roses can be used for good scent. The scent of the rose comes from tiny perfume glands on the petals,[4][5] which can be seen through a powerful microscope. Sometimes rose petals are dried and packed so that you can use them for decoration or for scent.",
+        "from":" Europe, North America",
+        "gallery1":"./img/hong1.jpg",
+        "gallery2":"./img/hong2.jpg"
     },
+    
     {
         "id":3,
         "name":"Jasmine",
         "img":"./img/hn.jpg",
-        "Desc":"Jasmine can be either deciduous (leaves falling in autumn) or evergreen (green all year round), and can be erect, spreading, or climbing shrubs and vines. Their leaves are borne in opposing or alternating arrangement and can be of simple, trifoliate, or pinnate formation."
+        "Desc":"Jasmine can be either deciduous (leaves falling in autumn) or evergreen (green all year round), and can be erect, spreading, or climbing shrubs and vines. Their leaves are borne in opposing or alternating arrangement and can be of simple, trifoliate, or pinnate formation.",
+        "from":"Tropical areas",
+        "gallery1":"./img/jas1.jpg",
+        "gallery2":"./img/jas2.jpg"
     },
     {
         "id":4,
         "name":"Portulaca grandiflora",
         "img":"./img/hoathap.jpg",
-        "Desc":"It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20-to-25-millimeters-long and 2-to-3-millimeters-wide leaves are almost or completely stalk-shaped, and taper towards the tip."
+        "Desc":"It is a small, but fast-growing annual plant growing to 30 cm tall, though usually less. However, if it is cultivated properly, it can easily reach this height. The leaves are thick and fleshy, up to 2.5 cm long, arranged alternately or in small clusters. The flowers are 2.5–3 cm diameter with five petals, variably red, orange, pink, white, and yellow.[2] Their upright, or ascending, long shoots branch usually near the base. The spreading 20-to-25-millimeters-long and 2-to-3-millimeters-wide leaves are almost or completely stalk-shaped, and taper towards the tip.",
+        "from":"South American",
+        "gallery1":"./img/101.jpg",
+        "gallery2":"./img/102.jpg"
+        
     },
     {
         "id":5,
         "name":"Peach blossom",
         "img":"./img/hoadao.png",
-        "Desc":"In Vietnam, cherry blossoms are scarce, concentrated mainly in the northern mountainous provinces and the Central Highlands. These trees are mainly of the kanhizakura variety. In Da Lat, there is a type of cherry blossom belonging to the kanhizakura x okamezakura variety, scientifically named prunus cerasoides, commonly known as mai anh dao, wild mai, or cherry blossom. In 2013, the Japanese government gifted Vietnam a number of cherry blossom trees to commemorate the cooperative relationship between the two countries.[173] These cherry trees from Japan were planted at the Japanese Embassy on Lieu Giai Street, Hanoi, and in Sapa. In 2019, some cherry trees gifted by Japan bloomed in Hanoi[174] and Ho Chi Minh City."
+        "Desc":"In Vietnam, cherry blossoms are scarce, concentrated mainly in the northern mountainous provinces and the Central Highlands. These trees are mainly of the kanhizakura variety. In Da Lat, there is a type of cherry blossom belonging to the kanhizakura x okamezakura variety, scientifically named prunus cerasoides, commonly known as mai anh dao, wild mai, or cherry blossom. In 2013, the Japanese government gifted Vietnam a number of cherry blossom trees to commemorate the cooperative relationship between the two countries.[173] These cherry trees from Japan were planted at the Japanese Embassy on Lieu Giai Street, Hanoi, and in Sapa. In 2019, some cherry trees gifted by Japan bloomed in Hanoi[174] and Ho Chi Minh City.",
+        "from":"Throughout Europe, West Asian",
+        "gallery1":"./img/dao1.jpg",
+        "gallery2":"./img/dao2.jpg"
     },
     {
         "id":6,
         "name":"Apricot blossom",
         "img":"./img/hoamai.jpg",
-        "Desc":"Ochna integerrima, popularly called yellow Mai flower (Vietnamese: mai vàng, hoa mai, hoàng mai in southern Vietnam, although in the north, mai usually refers to Prunus mume), is a plant species in the genus Ochna (/ ˈɒknə /) and family Ochnaceae. In the wild, it is a small tree or shrub species (2-7 m tall)."
+        "Desc":"Ochna integerrima, popularly called yellow Mai flower (Vietnamese: mai vàng, hoa mai, hoàng mai in southern Vietnam, although in the north, mai usually refers to Prunus mume), is a plant species in the genus Ochna (/ ˈɒknə /) and family Ochnaceae. In the wild, it is a small tree or shrub species (2-7 m tall).",
+                "from":"From Quang Nam to Khanh Hoa",
+                "gallery1":"./img/mai1.jpg",
+                "gallery2":"./img/mai2.jpg"
     },
     {
         "id":7,
         "name":"Lotus",
         "img":"./img/hoasen.jpg",
-        "Desc":"Lotus plants are adapted to grow in the flood plains of slow-moving rivers and delta areas. Stands of lotus drop hundreds of thousands of seeds every year to the bottom of the pond. While some sprout immediately, and most are eaten by wildlife, the remaining seeds can remain dormant for an extensive period of time as the pond silts in and dries out. During flood conditions, sediments containing these seeds are broken open, and the dormant seeds rehydrate and begin a new lotus colony."
+        "Desc":"Lotus plants are adapted to grow in the flood plains of slow-moving rivers and delta areas. Stands of lotus drop hundreds of thousands of seeds every year to the bottom of the pond. While some sprout immediately, and most are eaten by wildlife, the remaining seeds can remain dormant for an extensive period of time as the pond silts in and dries out. During flood conditions, sediments containing these seeds are broken open, and the dormant seeds rehydrate and begin a new lotus colony.",
+        "from":"Viet Nam",
+        "gallery1":"./img/sen1.jpg",
+        "gallery2":"./img/sen2.jpg"
     },
     {
         "id":8,
         "name":"Lily",
         "img":"./img/hoahue.jpg",
-        "Desc":"Lilies are tall perennials ranging in height from 1–6 ft (30–180 cm). They form naked or tunicless scaly underground bulbs which are their organs of perennation. In some North American species the base of the bulb develops into rhizomes, on which numerous small bulbs are found. Some species develop stolons.[4] Most bulbs are buried deep in the ground, but a few species form bulbs near the soil surface. Many species form stem-roots. With these, the bulb grows naturally at some depth in the soil, and each year the new stem puts out adventitious roots above the bulb as it emerges from the soil. These roots are in addition to the basal roots that develop at the base of the bulb, a number of species also produce contractile roots that move the bulbs deeper into the soil.[5]"
+        "Desc":"Lilies are tall perennials ranging in height from 1–6 ft (30–180 cm). They form naked or tunicless scaly underground bulbs which are their organs of perennation. In some North American species the base of the bulb develops into rhizomes, on which numerous small bulbs are found. Some species develop stolons.[4] Most bulbs are buried deep in the ground, but a few species form bulbs near the soil surface. Many species form stem-roots. With these, the bulb grows naturally at some depth in the soil, and each year the new stem puts out adventitious roots above the bulb as it emerges from the soil. These roots are in addition to the basal roots that develop at the base of the bulb, a number of species also produce contractile roots that move the bulbs deeper into the soil.[5]",
+        "from":"temperate Northern Hemisphere",
+        "gallery1":"./img/hue1.jpg",
+        "gallery2":"./img/hue2.jpg"
     },
     {
         "id":9,
         "name":"Viola",
         "img":"./img/hoavio.png",
-        "Desc":"The flowers of the vast majority of the species are strongly zygomorphic with bilateral symmetry and solitary, but occasionally form cymes. The flowers are formed from five petals; four are upswept or fan-shaped with two per side, and there is one, broad, lobed lower petal pointing downward. This petal may be slightly or much shorter than the others and is weakly differentiated. The shape of the petals and placement defines many species, for example, some species have a spur on the end of each petal while most have a spur on the lower petal. The spur may vary from scarcely exserted (projecting) to very long, such as in Viola rostrata.[2]"
+        "Desc":"The flowers of the vast majority of the species are strongly zygomorphic with bilateral symmetry and solitary, but occasionally form cymes. The flowers are formed from five petals; four are upswept or fan-shaped with two per side, and there is one, broad, lobed lower petal pointing downward. This petal may be slightly or much shorter than the others and is weakly differentiated. The shape of the petals and placement defines many species, for example, some species have a spur on the end of each petal while most have a spur on the lower petal. The spur may vary from scarcely exserted (projecting) to very long, such as in Viola rostrata.[2]",
+        "from":" the Northern Hemisphere",
+        "gallery1":"./img/vio1.jpg",
+        "gallery2":"./img/vio2.jpg"
     }
 ]
