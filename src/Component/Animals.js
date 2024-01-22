@@ -32,7 +32,8 @@ export default function Animals() {
                 </Link>
                 <div className="card-body">
                     <h5 className="card-title">{animal.name}</h5>
-                    
+                    <h5 className="card-title">Type:{animal.type}</h5>
+                    <h5 className="card-title">From:{animal.from}</h5>
                 </div>
                 </div>
             </div>
