@@ -97,3 +97,19 @@
   padding-top: 40px;
   margin: auto;
 }
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+.container-fluid {
+  width: 100%;
+}
