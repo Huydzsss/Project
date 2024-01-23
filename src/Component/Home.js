@@ -102,19 +102,19 @@ export default function Home() {
     </div>
     <div className="row justify-content-center">
       <div className="col-md-4 mb-4">
-        <div className="img-wrapper zoom pt-5">
+        <div className="img-wrapper zoom pt-1">
           <img className="img-thumbnail imgZ" src={t3} alt="Gallery 4" />
           <p className="image-caption">Rhino care staff</p>
         </div>
       </div>
       <div className="col-md-4 mb-4">
-        <div className="img-wrapper zoom pt-5">
+        <div className="img-wrapper zoom pt-1">
           <img className="img-thumbnail imgZ" src={t4} alt="Gallery 5" />
           <p className="image-caption">Tiger care staff</p>
         </div>
       </div>
       <div className="col-md-4 mb-4">
-        <div className="img-wrapper zoom pt-5">
+        <div className="img-wrapper zoom pt-1">
           <img
             className="img-thumbnail imgZ"
             src="https://cdn.discordapp.com/attachments/1192010367057002626/1193841629178638366/Kombo-coaster3-Kerrie-Best.png?ex=65ae2ea8&is=659bb9a8&hm=e27d8c19a47e749d4e2a3d5a30b68811dbfd0de9422b0e5abdb32a14b8282ac3&"
