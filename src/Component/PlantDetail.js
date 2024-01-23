@@ -51,8 +51,6 @@ export default function PlantDetail() {
             </div>
           </div>
         </section>
-
-      
       <Footer/>
     </div>
   );

@@ -75,32 +75,32 @@ export default function Home() {
           <div className="d-flex justify-content-center container gallery bg-warning">
             <strong style={{ fontSize: "50px" }}>Gallery</strong>
           </div>
-          <div className="d-flex justify-content-center flex-row container-fluid bg-warning">
-            <div className="img-wrapper zoom">
+          <div className="d-flex justify-content-center flex-row  bg-warning">
+            <div className="img-wrapper zoom pt-1">
               <img className="img-thumbnail imgZ" src={t1} style={{ height: "400px", width: "400px" }} />
               <p className="image-caption">July every year Zootopia will organize Animal Week</p>
             </div>
-            <div className="img-wrapper zoom">
+            <div className="img-wrapper zoom pt-1">
               <img className="img-thumbnail imgZ" src={t2} style={{ height: "400px", width: "400px" }} />
               <p className="image-caption">Staff in the park is instructing the delegation</p>
             </div>
-            <div className="img-wrapper zoom">
+            <div className="img-wrapper zoom pt-1">
               <img className="img-thumbnail imgZ"
                 src="https://cdn.discordapp.com/attachments/1192010367057002626/1193841469388234824/11093_IMG_7736.png?ex=65ae2e82&is=659bb982&hm=ddbe789f42d70a21b420834020197cc6a579b9100e6a5792a2cb84c8052690bf&"
                 style={{ height: "400px", width: "400px" }} />
               <p className="image-caption">Play area in the park</p>
             </div>
           </div>
-          <div className="d-flex justify-content-center flex-row container-fluid bg-warning">
-            <div className="img-wrapper zoom">
+          <div className="d-flex justify-content-center flex-row  bg-warning">
+            <div className="img-wrapper zoom pt-5">
               <img className="img-thumbnail imgZ" src={t3} style={{ height: "400px", width: "400px" }} />
               <p className="image-caption">Rhino care staff</p>
             </div>
-            <div className="img-wrapper zoom">
+            <div className="img-wrapper zoom pt-5">
               <img className="img-thumbnail imgZ" src={t4} style={{ height: "400px", width: "400px" }} />
               <p className="image-caption">Tiger care staff</p>
             </div>
-            <div className="img-wrapper zoom">
+            <div className="img-wrapper zoom pt-5">
               <img className="img-thumbnail imgZ"
                 src="https://cdn.discordapp.com/attachments/1192010367057002626/1193841629178638366/Kombo-coaster3-Kerrie-Best.png?ex=65ae2ea8&is=659bb9a8&hm=e27d8c19a47e749d4e2a3d5a30b68811dbfd0de9422b0e5abdb32a14b8282ac3&"
                 style={{ height: "400px", width: "400px" }} />
