@@ -5,7 +5,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Home.css';
 import logo from './img/logo.png';
 import house from "./img/house.svg";
-
+import { toast,ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export default function Menu() {
   const [showModal, setShowModal] = useState(false);
   const [ticketInfo, setTicketInfo] = useState({
@@ -32,9 +33,14 @@ export default function Menu() {
   };
 
   const handleSubmit = () => {
-    alert("Buy success!")
+    toast.success('Buy tickets success!');
     console.log('Thông tin vé:', ticketInfo, date);
-    window.location.reload();
+    setTicketInfo({
+      adult: 1,
+      child: 0,
+      old: 0,
+    });
+    setDate(new Date());
     closeModal();
   };
 
@@ -126,6 +132,7 @@ export default function Menu() {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 }
