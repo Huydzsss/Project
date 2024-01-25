@@ -4,7 +4,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Home.css';
 import logo from './img/logo.png';
-import house from "./img/house.svg";
 import { toast,ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 export default function Menu() {
@@ -18,6 +17,7 @@ export default function Menu() {
   const [showSearch, setShowSearch] = useState(false);
 
   const handleTicketChange = (type, value) => {
+    value = Math.max(0, value);
     setTicketInfo({
       ...ticketInfo,
       [type]: value,
