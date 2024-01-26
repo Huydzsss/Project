@@ -15,7 +15,7 @@ export default function Header() {
           <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
             <h1 className="display-3">National Parks Zootopia</h1>
             <p className="lead">Explore the natural beauty of top national parks. Start your journey now!</p>
-              <a className="btn btn-primary btn-success" href="#" role="button">Learn More</a>
+              <a className="btn btn-primary btn-success" href="#" role="button">Explore now</a>
           </div>
         </div>
       </header>
