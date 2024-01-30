@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './Home.css';
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -15,7 +16,9 @@ export default function Header() {
           <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
             <h1 className="display-3">National Parks Zootopia</h1>
             <p className="lead">Explore the natural beauty of top national parks. Start your journey now!</p>
-              <a className="btn btn-primary btn-success" href="#" role="button">Explore now</a>
+            <NavLink to="/Narture">
+              <button type="button" className="btn btn-success">Explore now</button>
+            </NavLink>
           </div>
         </div>
       </header>

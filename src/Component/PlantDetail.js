@@ -35,7 +35,7 @@ export default function PlantDetail() {
     <div  style={{textAlign:"center"}}>
       <Menu/>
       <h1>{plant.name}</h1>
-      <img src={`${process.env.PUBLIC_URL}/${plant.img}`} alt={plant.name} />
+      <img src={`${process.env.PUBLIC_URL}/${plant.img}`} alt={plant.name}  style={{ width: "100vw", height: "100vh", objectFit: "cover" }}/>
       <h4 className='font-monospace'>- Description: {plant.Desc}</h4>
       <h5 className="card-from">from: {plant.from}</h5>
       <section className="my-0 bg-warning mt-1">
@@ -44,10 +44,10 @@ export default function PlantDetail() {
           </div>
           <div className="d-flex justify-content-center flex-row container-fluid bg-warning">
             <div className="img-wrapper ">
-              <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${plant.gallery1}`} style={{ height: "500px", width: "500px" }} />
+              <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${plant.gallery1}`} />
             </div>
             <div className="img-wrapper ">
-              <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${plant.gallery2}`} style={{ height: "500px", width: "500px" }} />
+              <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${plant.gallery2}`}  />
             </div>
           </div>
         </section>

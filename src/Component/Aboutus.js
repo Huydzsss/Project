@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Menu from "./menu";
 import Footer from "./Footer";
+import { NavLink } from "react-router-dom";
 
  export default function AboutUs() {
   return (
@@ -29,7 +30,7 @@ import Footer from "./Footer";
         </p>
         <p className="text-justify">
           Thank you for supporting our cause! If you have any questions or would
-          like to get involved, feel free to <a href="ContactUs">contact us</a>.
+          like to get involved, feel free to <NavLink to='/ContactUs'>contact us.</NavLink>
         </p>
       </div>
       <Footer />
