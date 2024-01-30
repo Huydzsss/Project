@@ -22,16 +22,16 @@ const Footer = () => {
           <div className="col-md-6">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><NavLink to="#" className="nav-link text-light color-footer">Discovery</NavLink>
+              <li><NavLink to="#" className="nav-link  color-footer">Discovery</NavLink>
                 <ul className="list-inline">
                   <li className="list-inline-item"><NavLink to="/Region" className="nav-link text-light">Region</NavLink></li>
                   <li className="list-inline-item"><NavLink to="/Nature" className="nav-link text-light">Nature</NavLink></li>
                   <li className="list-inline-item"><NavLink to="/Culture" className="nav-link text-light">Culture</NavLink></li>
                 </ul>
               </li>
-              <li><NavLink to="/Event" className="nav-link text-light color-footer">Events</NavLink></li>
-              <li><NavLink to="/Aboutus" className="nav-link text-light color-footer">About Us</NavLink></li>
-              <li><NavLink to="/ContactUS" className="nav-link text-light color-footer">Contact Us</NavLink></li>
+              <li><NavLink to="/Event" className="nav-link  color-footer">Events</NavLink></li>
+              <li><NavLink to="/Aboutus" className="nav-link color-footer">About Us</NavLink></li>
+              <li><NavLink to="/ContactUS" className="nav-link  color-footer">Contact Us</NavLink></li>
             </ul>
           </div>
           <div className="col-md-6">

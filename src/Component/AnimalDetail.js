@@ -46,10 +46,10 @@ export default function AnimalDetail() {
           <strong style={{ fontSize: "50px" }}>Gallery</strong>
         </div>
         <div className="d-flex justify-content-center flex-row container-fluid bg-warning">
-          <div className="img-wrapper ">
+          <div >
             <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${animal.gallery1}`} />
           </div>
-          <div className="img-wrapper ">
+          <div >
             <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${animal.gallery2}`} />
           </div>
         </div>

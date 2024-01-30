@@ -43,10 +43,10 @@ export default function PlantDetail() {
             <strong style={{ fontSize: "50px" }}>Gallery</strong>
           </div>
           <div className="d-flex justify-content-center flex-row container-fluid bg-warning">
-            <div className="img-wrapper ">
+            <div >
               <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${plant.gallery1}`} />
             </div>
-            <div className="img-wrapper ">
+            <div >
               <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${plant.gallery2}`}  />
             </div>
           </div>

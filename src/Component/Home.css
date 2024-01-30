@@ -122,3 +122,11 @@
 .container-fluid {
   width: 100%;
 }
+.navbar-nav li:hover .nav-link {
+  color: white;
+  background-color: gray;
+}
+
+.navbar-nav li .nav-link:hover:active::after {
+  pointer-events: none;
+}

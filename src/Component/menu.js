@@ -33,7 +33,8 @@ export default function Menu() {
     });
   };
 
-  const openModal = () => {
+  const openModal = (e) => {
+    e.preventDefault(); 
     setShowModal(true);
   };
 
@@ -70,23 +71,25 @@ export default function Menu() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-               <ul className="navbar-nav mx-auto">
+              <ul className="navbar-nav mx-auto">
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle    mx-4" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Discovery</a>
-                  <ul className="dropdown-menu">
-                    <li><NavLink className="dropdown-item" to="/Region">Region</NavLink></li>
-                    <li><NavLink className="dropdown-item" to="/Narture">Nature</NavLink></li>
-                    <li><NavLink className="dropdown-item" to="/Culture">Culture</NavLink></li>
-                  </ul>
+                  <div className="dropdown ">
+                    <a to="#" className="nav-link dropdown-toggle mx-4 " role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick={(e) => openModal(e)}>Discovery</a>
+                    <div className="dropdown-menu">
+                      <li><NavLink className="dropdown-item " to="/Region">Region</NavLink></li>
+                      <li><NavLink className="dropdown-item" to="/Narture">Nature</NavLink></li>
+                      <li><NavLink className="dropdown-item " to="/Culture">Culture</NavLink></li>
+                    </div>
+                  </div>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/Event" className="nav-link   mx-4">Events</NavLink>
+                  <NavLink to="/Event" className="nav-link mx-4 ">Events</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/Aboutus" className="nav-link   mx-4">About Us</NavLink>
+                  <NavLink to="/Aboutus" className="nav-link mx-4 ">About Us</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/ContactUs" className="nav-link   mx-4">Contact Us</NavLink>
+                  <NavLink to="/ContactUs" className="nav-link mx-4 ">Contact Us</NavLink>
                 </li>
                 <li className="nav-item">
                   <button className="nav-link active btn btn-danger mx-4" style={{ fontSize: "20px", color: "white" }} type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={openModal}>
