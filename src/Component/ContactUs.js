@@ -52,7 +52,7 @@ export default function ContactUS() {
   };
 
   return (
-    <div className="container-fluid">
+    <div >
       <Menu />
       <div className="row">
         <div className="col-md-6">

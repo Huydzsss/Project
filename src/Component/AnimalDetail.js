@@ -34,27 +34,41 @@ export default function AnimalDetail() {
 
   return (
     <div className='container-fluid p-0' style={{ textAlign: "center" }}>
-      <Menu />
-      <h2>{animal.name}</h2>
-      <img src={`${process.env.PUBLIC_URL}/${animal.img}`} alt={animal.name} style={{ width: "100vw", height: "100vh", objectFit: "cover" }} />
+  <Menu />
+        <h2>{animal.name}</h2>
+      <div >
+        <img 
+          src={`${process.env.PUBLIC_URL}/${animal.img}`} 
+          alt={animal.name}
+          className="img-fluid vw-100"
+        />
+      </div>
+  <div className="row justify-content-center">
+    <div className="col-md-8 text-center">
       <h2>- Type: {animal.type}</h2>
       <h2>- Status: {animal.status}</h2>
       <h2>- From: {animal.from}</h2>
       <h3 className="font-monospace">Description: {animal.Desc}</h3>
-      <section className="my-0 bg-warning mt-1">
-        <div className="d-flex justify-content-center container gallery bg-warning">
+    </div>
+  </div>
+  <section className="my-0 bg-warning mt-1">
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-12 text-center">
           <strong style={{ fontSize: "50px" }}>Gallery</strong>
         </div>
-        <div className="d-flex justify-content-center flex-row container-fluid bg-warning">
-          <div >
-            <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${animal.gallery1}`} />
-          </div>
-          <div >
-            <img className="img-thumbnail " src={`${process.env.PUBLIC_URL}/${animal.gallery2}`} />
-          </div>
+      </div>
+      <div className="row justify-content-center">
+        <div className="col-6 col-md-3 mb-3">
+          <img className="img-thumbnail" src={`${process.env.PUBLIC_URL}/${animal.gallery1}`} alt="Gallery Image 1" />
         </div>
-      </section>
-      <Footer />
+        <div className="col-6 col-md-3 mb-3">
+          <img className="img-thumbnail" src={`${process.env.PUBLIC_URL}/${animal.gallery2}`} alt="Gallery Image 2" />
+        </div>
+      </div>
     </div>
+  </section>
+  <Footer />
+</div>
   );
 }

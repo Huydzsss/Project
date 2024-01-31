@@ -9,7 +9,7 @@ import aniw from './img/aniw.png';
 import Footer from './Footer';
 export default function Event() {
     return(
-        <div className="container-fluid">
+        <div >
             <Menu />
             <div className="specia">
             <h2 className="d-flex justify-content-center" style={{fontSize: "50px"}}>Events</h2>
