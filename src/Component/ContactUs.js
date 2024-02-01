@@ -37,7 +37,7 @@ export default function ContactUS() {
       });
   
       if (response.ok) {
-        setSentSuccess('Form data sent successfully.');
+        toast.success("Form data sent successfully.")
       } else {
         console.error('Failed to send form data.');
       }
