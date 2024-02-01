@@ -48,7 +48,7 @@ export default function AnimalDetail() {
       <h2>- Type: {animal.type}</h2>
       <h2>- Status: {animal.status}</h2>
       <h2>- From: {animal.from}</h2>
-      <h3 className="font-monospace">Description: {animal.Desc}</h3>
+      <h3 >Description: {animal.Desc}</h3>
     </div>
   </div>
   <section className="my-0 bg-warning mt-1">

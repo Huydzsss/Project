@@ -36,7 +36,7 @@ export default function PlantDetail() {
       <Menu/>
       <h1>{plant.name}</h1>
       <img src={`${process.env.PUBLIC_URL}/${plant.img}`} alt={plant.name}  style={{ width: "100vw", height: "100vh", objectFit: "cover" }}/>
-      <h4 className='font-monospace'>- Description: {plant.Desc}</h4>
+      <h4 >- Description: {plant.Desc}</h4>
       <h5 className="card-from">from: {plant.from}</h5>
       <section className="my-0 bg-warning mt-1">
           <div className="d-flex justify-content-center container gallery bg-warning">
